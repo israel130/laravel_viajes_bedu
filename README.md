@@ -95,3 +95,45 @@ Este proyecto depende de las siguientes librerías y frameworks:
 
    Lenguaje de programación que permite implementar funciones complejas en páginas web.
    Para este proyecto, se recomienda utilizar la versión ECMAScript 6 (ES6) o superior.
+
+   
+##  Instalación y Configuración Local
+
+   Para comenzar a trabajar con este proyecto Laravel localmente, sigue los siguientes pasos:
+
+   Prerrequisitos
+   Asegúrate de tener instalados los siguientes requisitos en tu sistema:
+
+   PHP: versión 7.4 o superior
+   Composer: herramienta de gestión de dependencias de PHP
+   Servidor Web: como Apache o Nginx
+   Base de Datos: MySQL o PostgreSQL
+
+   1. Clona el Repositorio
+
+   git clone https://github.com/israel130/laravel_viajes_bedu.git
+
+   2. Instala las Dependencias de php
+
+   composer install
+
+   3. Configura el Archivo de Entorno
+
+   Crea una copia del archivo .env.example y nómbrala .env.
+   Configura las variables de entorno, como la conexión a la base de datos y cualquier otra configuración específica.
+
+   4. Genera la Clave de Aplicación
+
+   php artisan key:generate
+
+   5. Instala Dependencias de Node
+
+   npm install
+
+   6. Inicia el Servidor de Desarrollo
+
+   php artisan serve
+
+
+
+
